@@ -1,0 +1,62 @@
+.Nav1{
+   display: flex;
+   justify-content: space-around !important;
+   align-content: space-around !important;
+   
+}
+
+.connect_btn{
+    font-weight: bolder !important;
+    height: fit-content;
+    padding: 2px 15px !important;
+    background: linear-gradient(to right, #1aa7ec 0%, #797ef6 100%);
+    border: none !important;
+    align-self: center !important;
+}
+.search_btn{
+    background: linear-gradient(45deg, #cbdae2 0%, #dbdce2 50%);
+    height: fit-content;
+    padding: 3px 10px !important;
+}
+.footbtn{
+    background: linear-gradient(to right,  #1aa7ec 10%, #797ef6 90%);
+    border: none !important;
+}
+@media screen and (max-width:1024px) { 
+    .connect_btn{
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width:320px) { 
+     .navsearch{
+        display: none !important;
+    }
+}
+
+/* .navbar img{
+padding-left: 30px;
+
+@media screen and (max-width:1024px) { 
+    .btn-group .btn-light{
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width:768px) {
+    .btn-group .btn-light{
+        padding-left: 0px;
+    }
+    .sidemenu .fa-bars{
+        display: block;
+    }
+    .dropdown-menu li>a{
+        position: fixed;
+        top: 0;
+        width: 768px;
+        height: 100vh;
+        padding-top: 50px;
+    }
+    .dropdown-menu li>a{
+      display: block;
+      margin: 25px;
+    }
+} */

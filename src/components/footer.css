@@ -1,0 +1,45 @@
+.foot{
+    background-color: rgb(34, 39, 109) !important;
+    /* position: relative !important; */
+    border-top: 1px solid gray;
+    margin-bottom: 0% !important;
+}
+.text-items{
+    text-decoration: none;
+}
+.foot-heading{
+    color: rgb(211, 193, 193);
+}
+.socialicons{
+    color: white !important;
+}
+ .socialbtn{
+    border: none;
+    border-radius: 10%;
+    background-color: rgb(146, 145, 145) !important;
+}
+@media screen and (max-width:1024px) {
+    .social-iconsall{
+        display: flex;
+    }
+    .socialbtn{
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .text-items{
+        display: flex;
+    }
+    .foot-heading{
+        display: flex;
+        }
+    .social-iconsall{
+        display: flex;
+        justify-content: left;
+        padding: 2px;
+    }
+    .socialbtn{
+        margin: 2px;
+    }
+}
