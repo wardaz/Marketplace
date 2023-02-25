@@ -1,1 +1,1 @@
-Link : https://app.netlify.com/sites/fyp-marketplace/settings/general
+Link : https://fyp-marketplace.netlify.app/
