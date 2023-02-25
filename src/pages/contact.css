@@ -1,0 +1,108 @@
+.contact-page img{
+    position: relative;
+    height: 35vh;
+    width: 100%;
+}
+.contact-text{
+    position: absolute;
+    top: 22%;
+    left: 40%;
+    color: white;
+}
+.contact-text h3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.contact-text p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.contact-form button{
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(34, 39, 109) !important;
+    color: white;
+    font-weight: bolder;
+    padding: 2px 25px;
+}
+.contact-form input{
+    margin: 5px;
+    padding: 5px 0px;
+    width: 700px !important;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.contact-form input:focus{
+    outline: 1px solid #8b8ab6;
+    background-color: #cfcffa;  
+}
+.contact-form textarea:focus{
+    outline: 1px solid #8b8ab6;
+    background-color: #d4d4f7;
+   
+}
+
+.contact-office{
+align-items: center !important;
+}
+.US-office{
+    border-radius: 4px;
+    background-color:rgb(242, 246, 254);
+    padding: 30px;
+}
+.AU-office{
+    border-radius: 4px;
+     background-color: #403f83;
+     padding: 30px;
+     color: white;
+}
+.US-office a{
+   color: #8364E2 ;
+}
+.AU-office a{
+     color: white;
+}
+
+.contact-office .fa{
+    color: #8364E2 !important;
+    padding: 12px;
+    font-size: 15px;
+    }
+.contact-form textarea{
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: gray;
+}
+@media screen and (max-width:1024px) {
+    .contact-form input{
+        width: 600px !important;
+    }
+    .contact-form textarea{
+        width: 600px !important;
+    } 
+}
+@media screen and (max-width:768px) {
+    .contact-office{
+        padding: 30px;
+        margin: 10px;
+        }
+}
+@media screen and (max-width:425px) {
+    .contact-form input{
+        width: 294px !important;
+       
+    }
+    .contact-form textarea{
+        width: 294px !important;
+    } 
+    .contact-text{
+        left: 20%;
+    }
+    .contact-office{
+        width: 330px;
+        font-size: 13px;
+        }
+}

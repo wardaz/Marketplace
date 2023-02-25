@@ -1,0 +1,27 @@
+<div className="container">
+    {
+        activetab == "profile" ?
+            <div className="row">
+                <div className="col-8">
+                    {/* Profile area */}
+                </div>
+                <div className="col-4">
+                    {/* ----Image area ------ */}
+                </div>
+            </div>
+            :
+            activetab == "Items" ?
+            <div className="row">
+                {/* col-lg-3 md-4 sm-6 col-6 */}
+                {/* ---- My items--- */}
+            </div>
+            :
+            <div className="row">
+                 {/* col-6 */}
+            {/* ---- Appearence--- */}
+        </div>
+    }
+
+
+
+</div>

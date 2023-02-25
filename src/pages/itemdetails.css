@@ -1,0 +1,118 @@
+.item-boxes{
+    display: flex;
+    align-items: center;
+}
+.item-box1, .item-box2 , .item-box3{
+    background-color: rgb(221, 219, 219);
+    color: rgb(99, 98, 98);
+    padding: 2px 12px;
+    margin: 5px;
+    border-radius: 2px;
+}
+.items-details-para{
+    color: grey;
+    font-size: larger;
+}
+.creater-collection{
+    display: flex;
+    text-align: start;
+    justify-content: space-around;
+    
+}
+.item-creater{
+   margin-left: -18px;
+}
+.item-creater h6 , .item-collection h6{
+    text-align: left;
+    font-weight: bolder;
+}
+.item-creater a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.item-creater img{
+   height: 40px;
+   border-radius: 50%;
+}
+.item-collection a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.item-collection img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+ }
+ .item-details-properties{
+    background-color: #c2b0f8;
+    border: 1px solid rgb(172, 170, 170);
+    border-radius: 3px;
+    margin: 10px;
+    text-align: center;
+   align-self: center;
+ }
+ .item-details-properties a{
+    /* padding: 2px; */
+    text-decoration: none;
+ }
+ .item-details-properties a h5{
+    color: blueviolet;
+    font-size: 14px;
+ }
+ .item-details-properties a h4{
+    color: black;
+    font-size: 16px;
+ }
+ .item-details-properties a span{
+    color: gray;
+    font-size: 13px;
+ }
+ .item-details-price{
+    display: flex;
+ }
+
+ .item-details-price .fa-ethereum{
+    background-color: #70a9fd;
+    height: 29px;
+    width: 29px;
+    border-radius: 50%;
+    position: relative;
+ }
+ .fa-ethereum:before{
+    position: absolute;
+    left: 9px;
+    top: 6px;
+   }
+ .item-details-price h5{
+    padding: 0px 15px;
+ }
+ .item-details-btn1{
+    background-color: darkorchid;
+    color: white;
+    font-weight: bold;
+    padding: 6px 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+ }
+ .item-details-btn2{
+    background-color: rgb(226, 196, 241);
+    color: darkorchid;
+    font-weight: bold;
+    padding: 6px 40px; 
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+
+ }
+ @media screen and (max-width:320px) {
+   .item-creater {
+      margin-left: 22px;
+  }
+ }
+
+ 

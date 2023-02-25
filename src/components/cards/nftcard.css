@@ -1,0 +1,32 @@
+.bottom .sub2{
+    padding-left: 0px;
+}
+.bottom .sub5 a{
+    text-decoration: none;
+    color: #8364E2;
+    font-weight: 700;
+    word-break: break-word;
+    display: block;
+}
+.bottom .fa-heart{
+    padding-left: 90px;
+    font-size: 17px;
+    border: black;
+    color: #bbd;
+}
+.bottom .fa-heart:hover{
+    color: #d63384;
+}
+.bottom .sub4{
+    padding-left: 5px;
+}
+/* -------------- slider bottom ------------*/
+.bottom{
+    display: flex;
+    margin-top: -10px;
+    font-size: smaller;
+    flex-direction: column;
+}
+.bottom .sub1{
+    color: gray;
+}

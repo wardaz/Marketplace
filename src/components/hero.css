@@ -1,16 +1,24 @@
+.heroleftt1{
+    align-self: center !important;
+}
 .nft{
     background: -webkit-linear-gradient(45deg, #1AA7EC, #797EF6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-p.hero-text1{
-    font-size: 18px;
+
+.herotext1{
+    font-size: 48px !important;
+}
+.herotext2{
+    font-size: 28px !important;
     color: gray !important;
 }
 .herobtn1{
     background: linear-gradient(to right, #1aa7ec 0%, #797ef6 100%);
     color: white;
     padding: 6px 22px;
+    font-size: 18px;
     font-weight: bold;
     border: none;
     border-radius: 6px;
@@ -19,10 +27,28 @@ p.hero-text1{
     background-color: aquamarine;
     color: #1AA7EC;
     padding: 6px 26px;
+    font-size: 18px;
     font-weight: bold;
     border: none;
     border-radius: 6px;
 }
-.carousel-indiactors{
+
+.carousel-indicators{
     display: none;
+}
+@media screen and (max-width:768px) {
+    .herotext1{
+        font-size: 28px !important;
+    }
+    .herotext2{
+        font-size: 18px !important;
+    }
+}
+@media screen and (max-width:425px) {
+    .carousel{
+        margin-top: 12px;
+    }
+    .carousel-caption{
+        font-size: 12px;
+    }
 }

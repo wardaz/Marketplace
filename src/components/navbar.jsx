@@ -8,6 +8,7 @@ import Form from 'react-bootstrap/Form';
 
 import logo from '../assets/logo/logo.png'
 
+import Contactus from '../pages/contact'
 
 function Navbar1(){
     // var sidemenu = document.getElementById("sidemenu");
@@ -71,7 +72,7 @@ function Navbar1(){
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="">Contact Us</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link

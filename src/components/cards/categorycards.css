@@ -1,0 +1,69 @@
+.popular-categories{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.catcards{
+    background-color: #e0e1fc !important;
+    position: relative;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.catcards:hover{
+    background-color: #040836 !important;
+    color: white;
+
+}
+.catcards:hover .fa{
+    color: gray;
+    background-color: #040836 !important;
+
+}
+.catcards .fa{
+    color: #1AA7EC !important;
+    font-size: 80px;
+    opacity: 0.3;    
+}
+.catcards span{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    }
+
+.catcards:hover span{
+    color: white;
+}
+@media screen and (max-width: 1024px) {
+    .popular-categories{
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .catcards{
+        height: 90px;
+    }
+    .catcards .fa{
+      font-size: 50px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .catcards{
+        margin: 2px;
+        height: 90px;
+
+    }
+}
+@media screen and (max-width: 320px) {
+    .catcards .fa{
+        font-size: 40px;
+
+    }
+}

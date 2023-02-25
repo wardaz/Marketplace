@@ -1,0 +1,81 @@
+.trendingslide h4{
+    margin: 35px 0px 0px 125px;
+}
+/* 
+.trendb{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.trendb .fa-lesser-than{
+    position: absolute;
+    justify-content: flex-end;
+    display: flex;
+    align-self: flex-end;
+}
+.trendb .trendb-prev{
+    height: 35px;
+    width: 35px;
+    border: 1px solid black;
+    border-radius: 50px;
+    justify-items: center;
+    display: flex;
+}
+.trendb .trendb-next{
+    height: 35px;
+    width: 35px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.trendb .fa-greater-than{
+    position: absolute;
+    justify-content: flex-end;
+    display: flex;
+    align-self: flex-end;
+} */
+
+/* Cards */
+.slick-slide img{
+    width: 230px;
+    align-self: center;
+    border-radius: 15px;
+    margin-bottom: -10px;
+}
+
+.bottom .sub2{
+    padding-left: 9px;
+}
+.bottom .fa-heart{
+    padding-left: 90px;
+    font-size: 17px;
+    border: black;
+    color: #bbd;
+}
+.bottom .fa-heart:hover{
+    color: #d63384;
+}
+.bottom .sub4{
+    padding-left: 5px;
+}
+/* -------------- slider bottom ------------*/
+.bottom{
+    display: flex;
+    margin-top: -10px;
+    font-size: smaller;
+}
+.bottom .sub1{
+    color: gray;
+}
+
+@media screen and (max-width:1024px) {
+    .trendingslide h4{
+        margin-left: 50px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .trendingslide h4{
+        margin-left: 50px;
+    }
+}

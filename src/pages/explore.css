@@ -1,0 +1,59 @@
+.explore-page img{
+    position: relative;
+    height: 35vh;
+    width: 100%;
+}
+.explore-text{
+    position: absolute;
+    top: 22%;
+    left: 44%;
+    color: white;
+}
+.explore-text h3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.explore-search{
+    padding: 10px 12px;
+    border-radius: 5px;
+
+}
+.explore-search input{
+   width: 200px;
+   height: 40px;
+}
+.explore-search button{
+   color: white;
+   background-color: #8364E2;
+   border: 2px solid #8364E2;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   height: 41px;
+   width: 40px;
+}
+/* -----Dropdowns----- */
+
+.explore-drops{
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-right: 10px;
+        height: 40px;
+        width: 140px;
+        display: flex;
+        justify-items: center;
+        font-weight: bold;
+       padding-top: 5px;
+}
+@media screen and (max-width:768px) {
+    .explore-drops{
+        height: 40px;
+        width: 100px;
+        font-weight: bold;
+}
+.explore-drops .nav-link{
+    font-size: 12px;
+    margin-left: -10px;
+}
+}

@@ -1,0 +1,30 @@
+.error-img{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.oops{
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.not-a-fault{
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:425px) {
+    .oops{
+        display: flex;
+        text-align: center;
+
+        justify-content: center;
+    }
+    .not-a-fault{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}

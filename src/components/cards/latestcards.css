@@ -1,0 +1,37 @@
+.latest-news-1{
+  margin-top: 30px;
+  margin-left: 120px;
+}
+.latest-news .card-img-top{
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    width: 90%;
+    align-self: center;
+    position: relative;
+}
+.latest-news  a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.latest-date{
+    color: gray;
+    font-size: 12px;
+}
+.latest-news > .label{
+    background-color: #040836 !important;
+    border-radius: 3px;
+    padding: 2px 10px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    left: 25px;
+    top: 10px;
+}
+@media screen and (max-width:1024px) {
+    .latest-news-1{
+  margin-left: 40px;
+}
+}

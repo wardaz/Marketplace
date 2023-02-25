@@ -7,67 +7,89 @@ import walletconnect from '../../assets/wallets/walletconnect.png'
 import coinbase from '../../assets/wallets/coinbase.png'
 import arkane from '../../assets/wallets/arkane.png'
 
-export default function Walletcards(){
-    return(
+import './walletcards.css'
+
+export default function Walletcards() {
+    return (
         <>
-        <div className="container">
-       <div className="row">
-        <div className="col-lg-1 col-md-2 ">
-        <Card className="walletbox">
-        <a href="#">
-        <Card.Img variant="top" src={metamask}/>
-        <h4>Metamask</h4>
-        </a>
-        </Card>
-        </div>
+            <div className="container ">
+                <div className="row">
+                    <div className="col-md-2 col-sm-6 col-6">
+                        <Card className="walletbox">
+                            <Card.Img variant="top" src={metamask} />
+                            <Card.Body>
+                                <Card.Text>
+                                    Metamask
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
 
-        <div className="col-lg-1 col-md-2 ">
-        <Card className="walletbox">
-        <a href="#">
-        <Card.Img variant="top" src={bitski}/>
-        <h4>Bitski</h4>
-        </a>
-        </Card>
-        </div>
+                    <div className="col-md-2 col-sm-6 col-6">
+                        <Card className="walletbox">
 
-        <div className="col-lg-1 col-md-2 ">
-        <Card className="walletbox">
-        <a href="#">
-        <Card.Img variant="top" src={formatic}/>
-        <h4>Formatic</h4>
-        </a>
-        </Card>
-        </div>
+                            <Card.Img variant="top" src={bitski} />
+                            <Card.Body>
+                                <Card.Text className="text-center">
+                                   Bitski
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
 
-        <div className="col-lg-1 col-md-2 ">
-        <Card className="walletbox">
-        <a href="#">
-        <Card.Img variant="top" src={walletconnect}/>
-        <h4>WalletConnect</h4>
-        </a>
-        </Card>
-        </div>
+                    <div className="col-md-2 col-sm-6 col-6">
+                        <Card className="walletbox">
 
-        <div className="col-lg-1 col-md-2 ">
-        <Card className="walletbox">
-        <a href="#">
-        <Card.Img variant="top" src={coinbase}/>
-        <h4>Coinbase Wallet</h4>
-        </a>
-        </Card>
-        </div>
+                            <Card.Img variant="top" src={formatic} />
+                            <Card.Body>
+                                <Card.Text className="text-center">
+                                   Formatic
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
 
-        <div className="col-lg-1 col-md-2 ">
-        <Card className="walletbox">
-        <a href="#">
-        <Card.Img variant="top" src={arkane}/>
-        <h4>Arkane</h4>
-        </a>
-        </Card>
-        </div>
+                    <div className="col-md-2 col-sm-6 col-6">
+                        <Card className="walletbox">
 
-       </div>
-       </div>
-</>
-);
+                            <Card.Img variant="top" src={walletconnect} />
+                            <Card.Body>
+                                <Card.Text className="text-center">
+                                    Wallet Connect
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
+
+                    <div className="col-md-2 col-sm-6 col-6">
+                        <Card className="walletbox">
+                            
+                                <Card.Img variant="top" src={coinbase} />
+                                <Card.Body>
+                                <Card.Text className="text-center">
+                                Coinbase Wallet
+                                </Card.Text>
+                            </Card.Body>
+                               
+                        </Card>
+                    </div>
+
+                    <div className="col-md-2 col-sm-6 col-6">
+                        <Card className="walletbox">
+                            
+                                <Card.Img variant="top" src={arkane} />
+                                <Card.Body>
+                                <Card.Text className="text-center">
+                                Arkane
+                                </Card.Text>
+                            </Card.Body>
+                               
+                        </Card>
+                    </div>
+
+
+                </div>
+            </div>
+        </>
+    );
 }
